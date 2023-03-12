@@ -97,16 +97,20 @@ function ColorList() {
   const path = useLocation().pathname;
   let color = ["#ffffff"];
   let title: (index: number) => string;
+  let showBtnDelete: (index: number) => boolean;
   let addColor: ActionCreatorWithoutPayload<string>;
+
   switch (path) {
     case "/prefix":
       color = useSelector((state: RootState) => state.playerTitle.colors);
       title = (index: number) => (index ? "색상 #" + index : "플레이트 색상");
+      showBtnDelete = (index) => index > 1;
       addColor = addPlayerTitleColor;
       break;
     case "/color":
       color = useSelector((state: RootState) => state.colorNick.colors);
       title = (index: number) => "색상 #" + (index + 1);
+      showBtnDelete = (index) => index > 0;
       addColor = addNickColor;
       break;
   }
@@ -140,7 +144,9 @@ function ColorList() {
                     </S.ColorCodePragraph>
                   </S.ColorTextBox>
                 </S.ColorDetailBox>
-                {index > 1 ? <DeleteColorBtn id={index.toString()} /> : null}
+                {showBtnDelete(index) ? (
+                  <DeleteColorBtn id={index.toString()} />
+                ) : null}
               </S.ColorItemBox>
               {index === currentPicker ? (
                 <S.PopoverBox key={index}>
