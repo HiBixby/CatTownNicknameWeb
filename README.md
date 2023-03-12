@@ -24,4 +24,4 @@
  - 닉네임 글자수에 맞게 16진수 color code 생성
  - 선택한 색상의 개수보다 글자의 수가 더 많으면 그라데이션 적용
 
-주소 : [prefix.catmc.kr](https://prefix.catmc.kr)
+주소 : [generator.catmc.kr](https://generator.catmc.kr)
