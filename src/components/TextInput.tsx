@@ -68,7 +68,7 @@ function playerTitleForm() {
   };
   return (
     <>
-      <label htmlFor="playertitle">
+      <label htmlFor={id}>
         <h2>🏷️{label}</h2>
       </label>
       <S.PlayerTitleInput

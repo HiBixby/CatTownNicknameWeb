@@ -228,7 +228,7 @@ Error generating stack: `+i.message+`
     }
   `,InvalidParagraph:Ae.p`
     color: #db2777;
-  `};function kz(){const e=Lr().pathname,[t,r]=O.useState(!0),n=au(),[o]=PE(),i=o.get("nick");let a,l="",s="",u="",c="",f;switch(e){case"/prefix":l="칭호",s="playertitle",a=new RegExp("^[a-zA-Z]{1,6}$|^[가-힣]{1,5}$"),c="영어 1~6자, 한글 1~5자, 특수분자 불가, 영어 한글 혼합 사용 불가",f=w_;break;case"/color":l="닉네임",s="nick",a=new RegExp(".*"),u=i!==null?i:"",f=P_}const d=v=>{v.target.value.match(a)?(n(f(v.target.value)),r(!0)):r(!1)};return ze(fr,{children:[K("label",{htmlFor:"playertitle",children:ze("h2",{children:["🏷️",l]})}),K(Yv.PlayerTitleInput,{id:s,type:"text",placeholder:"이곳에 입력해 보세요!",defaultValue:u,onChange:d}),t?null:K(Yv.InvalidParagraph,{children:c})]})}function wb(){return ze(fr,{children:[K(kz,{}),K(Oz,{})]})}const hl={PreviewBox:Ae.div`
+  `};function kz(){const e=Lr().pathname,[t,r]=O.useState(!0),n=au(),[o]=PE(),i=o.get("nick");let a,l="",s="",u="",c="",f;switch(e){case"/prefix":l="칭호",s="playertitle",a=new RegExp("^[a-zA-Z]{1,6}$|^[가-힣]{1,5}$"),c="영어 1~6자, 한글 1~5자, 특수분자 불가, 영어 한글 혼합 사용 불가",f=w_;break;case"/color":l="닉네임",s="nick",a=new RegExp(".*"),u=i!==null?i:"",f=P_}const d=v=>{v.target.value.match(a)?(n(f(v.target.value)),r(!0)):r(!1)};return ze(fr,{children:[K("label",{htmlFor:s,children:ze("h2",{children:["🏷️",l]})}),K(Yv.PlayerTitleInput,{id:s,type:"text",placeholder:"이곳에 입력해 보세요!",defaultValue:u,onChange:d}),t?null:K(Yv.InvalidParagraph,{children:c})]})}function wb(){return ze(fr,{children:[K(kz,{}),K(Oz,{})]})}const hl={PreviewBox:Ae.div`
     background-color: #0000007b;
     color: white;
     font-size: 1.5rem;
