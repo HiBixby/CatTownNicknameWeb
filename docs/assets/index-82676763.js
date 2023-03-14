@@ -203,6 +203,7 @@ Error generating stack: `+i.message+`
   `,ColorCodePragraph:Ae.p.attrs(e=>({style:{color:e.color}}))`
     margin: 0;
   `,PopoverBox:Ae.div`
+    user-select: none;
     position: absolute;
     z-index: 2;
   `,CoverBox:Ae.div`

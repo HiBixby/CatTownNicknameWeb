@@ -81,6 +81,7 @@ const S = {
     margin: 0;
   `,
   PopoverBox: styled.div`
+    user-select: none;
     position: absolute;
     z-index: 2;
   `,
