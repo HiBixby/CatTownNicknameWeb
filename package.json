@@ -11,6 +11,7 @@
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
     "@types/react-color": "^3.0.6",
+    "@vitejs/plugin-legacy": "^4.0.2",
     "javascript-color-gradient": "^2.4.4",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
@@ -31,6 +32,7 @@
     "@types/react-dom": "^18.0.10",
     "@types/styled-components": "^5.1.26",
     "@vitejs/plugin-react": "^3.1.0",
+    "terser": "^5.16.6",
     "typescript": "^4.9.3",
     "vite": "^4.1.0"
   }
