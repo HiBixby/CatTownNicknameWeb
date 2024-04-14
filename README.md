@@ -1,6 +1,6 @@
 # 🐱고냥이타운 생성기🐱
 
-![image](https://github.com/HiBixby/CatTownNicknameWeb/assets/66160055/839798b0-0be4-405c-9995-6c2e62510e6c)
+<img src="https://github.com/HiBixby/CatTownNicknameWeb/assets/66160055/839798b0-0be4-405c-9995-6c2e62510e6c" width="50%"/>
 
 
 ### 주소
